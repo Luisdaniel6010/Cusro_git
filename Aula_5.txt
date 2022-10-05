@@ -1,0 +1,248 @@
+    1  clear
+    2  history
+    3  clear
+    4  exit
+    5  mkdir test
+    6  cd test
+    7  nul>
+    8  nul>*.*
+    9  touch Null
+   10  ls test
+   11  cd test
+   12  cd
+   13  ls
+   14  clear
+   15  cd test /
+   16  cd test/
+   17  cat> Null
+   18  ls
+   19  cd documents
+   20  cd documentos
+   21  cd document
+   22  ls
+   23  cd~
+   24  cd ~
+   25  cd documents
+   26  pwd
+   27  mkdir teste_gib
+   28  ls
+   29  cd teste_gib 
+   30  touch Null
+   31  ls
+   32  clear
+   33  history
+   34  cd ~
+   35  cd documentos
+   36  cd users
+   37  cd p6010
+   38  cd documentos
+   39  clear
+   40  ls
+   41  ls -a
+   42  cd downloads
+   43  mkdir Teste_Gib
+   44  ls
+   45  cd teste_gib
+   46  touch NULL
+   47  ls
+   48  cat > 
+   49  cat > ls, cd, mkdir
+   50  ls
+   51  cat>> NULL prueba1
+   52  cat NULL
+   53  prueba1 prueba 2
+   54  cat
+   55  clear
+   56  cd ~
+   57  clear
+   58  cd teste_gib
+   59  cd downloads
+   60  cd teste_gib
+   61  rm -r ls,
+   62  ls
+   63  echo 'Prueba_gib' > NULL
+   64  clear
+   65  cat > NULL
+   66  cat NULL
+   67  cat >> NULL
+   68  cat NULL
+   69  help
+   70  clear
+   71  cd downloads
+   72  cd downloads/
+   73  cd ~
+   74  cd downloads/
+   75  mkdir Nueva_carpeta
+   76  cd nueva_carpeta
+   77  touch Nuevoteste
+   78  ls
+   79  echo Nuevoteste > 'prueba1'
+   80  ls
+   81  clear
+   82  echo 'men'
+   83  echo 'prueva1' > prueba1
+   84  cat > nuevoteste
+   85  ls
+   86  cd downloads
+   87  cd NUeva_Carpeta
+   88  cat nuevoteste
+   89  cat > nuevoteste
+   90  ls
+   91  cat >> nuevoteste
+   92  ls
+   93  clear
+   94  man
+   95  history
+   96  clear
+   97  dc ~
+   98  cd ~
+   99  git log --pretty=oneline -2
+  100  git log -p -2
+  101  git log -2
+  102  git reset HEAD~
+  103  git log
+  104  git status
+  105  git add .
+  106  git status
+  107  git commit -m 'Aula_4.txt'
+  108  clear 
+  109  git branch 
+  110  git checkout -b feature
+  111  git branch 
+  112  touch Nova_feature
+  113  git estatus 
+  114  git status 
+  115  git add .
+  116  git commit -m 'Adicionado nova feature'
+  117  git log
+  118  git checkout master 
+  119  git status 
+  120  git log
+  121  touch Continuando_Master
+  122  add Continuando_Master 
+  123  add Continuando_master 
+  124  touch Continuando_master
+  125  add Continuando_master 
+  126  git add Continuando_master 
+  127  git commit -m 'Adicionando Continuando master'
+  128  git commit -m 'Adicionando Continuando master'
+  129  git log
+  130  git checkout -b feature
+  131  clear
+  132  git branch
+  133  git branch feature 
+  134  git chackout feature
+  135  git checkout feature
+  136  git status
+  137  git log 
+  138  git add continuando master 
+  139  git add 'continuando master' 
+  140  Clear
+  141  git chackout -b feature2 master 
+  142  git checkout -b feature2 master
+  143  git log
+  144  clear
+  145  git branch -d feature2
+  146  git checkout master 
+  147  git branch -d feature2
+  148  git checkout feature2  
+  149  clear
+  150  git checkout feature 
+  151  git log --pretty=oneline --graph
+  152  git merge master 
+  153  git merge master 
+  154  git log
+  155  git log --pretty=oneline --graph
+  156  git reset --hard HEAD~
+  157  git checkout master 
+  158  clear
+  159  git log --pretty=oneline --graph
+  160  git merge master 
+  161  git merge master clear
+  162  clear
+  163  git reset --hard HEAD~
+  164  git log --pretty=oneline --graph
+  165  git merge master
+  166  git checkout -b feature1
+  167  git touech exemplos.txt
+  168  git touech 'exemplos.txt'
+  169  touech 'exemplos.txt'
+  170  touech Nova_feature
+  171  ls
+  172  touch Nova_feature
+  173  git add Nova_feature
+  174  ls
+  175  git log
+  176  git commit -m 'Adicionando nova feature'
+  177  git log
+  178  git log --pretty=oneline --graph
+  179  git merge master 
+  180  git checkout master 
+  181  Clear
+  182  git chaeckout feature1
+  183  git checkout feature1
+  184  git log --pretty=oneline --graph
+  185  clear
+  186  cd download
+  187  cd downloads
+  188  cd Curso_git
+  189  git reset -hard HEAD~
+  190  git reset --hard HEAD~
+  191  clear
+  192  git branch 
+  193  git checkout -b feature
+  194  git branch -d feature
+  195  git branch -d feature1
+  196  git branch -D feature1
+  197  git branch -D feature
+  198  clear
+  199  git branch
+  200  git checkout -b feature
+  201  git branch
+  202  touch nova_feature
+  203  git status
+  204  git add nova_feature 
+  205  git commit -m 'Adicionando nova feature'
+  206  git log
+  207  git log --pretty=oneline --graph
+  208  clear
+  209  git checkout master 
+  210  git status
+  211  git rm -cached Continuando_Master
+  212  git rm --cached Continuando_Master
+  213* git rm -- Continuando_Master
+  214  git restore --staged Continuando_Master
+  215  git restore -staged Continuando_Master
+  216  clear
+  217  git status
+  218  git add .
+  219  git status
+  220  git restore --staged Continuando_Master
+  221  git status
+  222  git add .
+  223  clear
+  224  git log --pretty=oneline --graph
+  225  git checkout feature
+  226  git log
+  227  clear
+  228  git checkout -b feature 2 master 
+  229  git checkout -b feature2 master 
+  230  git checkout -d feature2
+  231  git checkout feature2
+  232  git branch -d feature2
+  233  git checkout master
+  234  git branch -d feature2
+  235  clear
+  236  git checkout feature2
+  237  clear
+  238  git checkout feature
+  239  git log --pretty=oneline --graph
+  240  git merge master 
+  241  git checkout master 
+  242  git merge feature 
+  243  git log --pretty=oneline --graph
+  244  git reset --hard HEAD~
+  245  git checkout feature
+  246  git rebase master 
+  247  git log --pretty=oneline --graph
+  248  history > Aula_5.txt
