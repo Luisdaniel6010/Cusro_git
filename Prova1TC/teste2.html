@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img src="/apagada.png" style="width:100px" id="imgchange" >
+
+<p>Clique na lâmpada para acender/apagar</p>
+
+<script>
+let ligadoBtn = document.getElementById('ligado');
+let apagadoBtn = document.getElementById('apagado');
+let imgchange = document.getElementById('imgchange');
+
+ligadoBtn.onclick = function(){
+    imgchange.src = "/ligada.png";
+}
+
+apagadoBtn.onclick = function(){
+    imgchange.src = "/apagada.png";
+}
+</script>
+
+</body>
+</html>

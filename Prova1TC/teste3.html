@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+   
+    
+        <img src = "/FoquitoApagado.png" id ="MiImagen" onclick= "cambiarImagen();"  style = "width: 100px; height: 100px;" >
+
+        <p>Clique na lâmpada para acender/apagar</p>
+
+
+        <script>
+            function cambiarImagen(){
+                element = document.getElementById("MiImagen");
+                if (element.src.match ("/FoquitoPrendido.png")){
+                    element.src = "/FoquitoApagado.png";
+                }
+                    else {
+                        element.src = "/FoquitoPrendido.png";
+                    }
+                }
+        </script>
+</body>
+</html>
